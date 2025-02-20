@@ -17,8 +17,11 @@
     <body class="reg">
         <div class="reg section center title" id="home">
             <div class="title-content">
-                <h1 class="bold">「<span>Team Simba</span>」</h1>
-                <a href=#about><button> About Us </button></a>
+                <h1 class="bold fade-in">「<span>Team Simba</span>」</h1>
+                <a href="#about" class="about-us-button fade-in">
+                    <i class="fa fa-arrow-left"></i>
+                    <span>About Us</span>
+                </a>
             </div>
         </div>
         <div class="reg section center" id="about">
@@ -32,31 +35,52 @@
             </div>
             <div class="team">
                 <div class="center profile-card">
-                    <img src="placeholder.webp" alt="Profile picture">
+                    <img src="abyan.jpg" alt="Profile picture">
                     <h3> Abyan Ali Kartasasmita </h3>
                     <h5> 2702337615 </h5>
-                    <a href="orlando.html"><button> More about me </button></a>
+                    <a><button> More about me </button></a>
                 </div>
                 <div class="center profile-card">
-                    <img src="placeholder.webp" alt="Profile picture">
+                    <img src="ally.png" alt="Profile picture">
                     <h3> Almira Farahiyah Shafiqa Rana </h3>
                     <h5> 2702378956 </h5>
-                    <a href="orlando.html"><button> More about me </button></a>
+                    <a><button class="reg"> More about me </button></a>
                 </div>
                 <div class="center profile-card">
-                    <img src="placeholder.webp" alt="Profile picture">
+                    <img src="ariel.jpg" alt="Profile picture">
                     <h3> Ariel Prandi Darmawidjaja </h3>
                     <h5> 2702337615 </h5>
-                    <a href="orlando.html"><button> More about me </button></a>
+                    <a><button> More about me </button></a>
                 </div>
                 <div class="center profile-card">
-                    <img src="placeholder.webp" alt="Profile picture">
+                    <img src="orlando.png" alt="Profile picture">
                     <h3> Orlando Jonathan Padiman </h3>
                     <h5> 2702337615 </h5>
                     <a href="orlando.html"><button> More about me </button></a>
                 </div>
             </div>
         </div>
+        <div class="reg section center rating" id="rating">
+            <h2>Rate Us!</h2>
+            <p>Our team is gathering a survey on YOUR experience with our website. </p>
+            <p>How would you rate your experience?</p>
+            <div class="star-rating">
+                <span class="star" data-rating="1">★</span>
+                <span class="star" data-rating="2">★</span>
+                <span class="star" data-rating="3">★</span>
+                <span class="star" data-rating="4">★</span>
+                <span class="star" data-rating="5">★</span>
+            </div>
+            <p id="ratingValue"></p>
+
+        </div>
+        <button id="backToTop" class="back-to-top" onclick="scrollToTop()">⬆️</button>
+
+        <footer class="center">
+            <p class="reg">&copy; 2025 Team Simba. All rights reserved.</p>
+        </footer>
+
         <script src="script.js"></script>
     </body>
+
 </html>
